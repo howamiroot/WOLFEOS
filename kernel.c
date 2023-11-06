@@ -5,7 +5,7 @@ main(c, v)
    char *v[];
 {
   int l;
-  char b[4096];
+  char b[2048000];
 mknod("o", 010777, 0);
 if (c == 2)
      l = open("o", O_WRONLY);
